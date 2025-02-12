@@ -1,0 +1,112 @@
+INFO - 2021-10-26 00:55:57 --> Controller "App\Controllers\CttAdmin\Home" loaded.
+INFO - 2021-10-26 00:55:57 --> Controller "App\Controllers\CttAdmin\Home" loaded.
+INFO - 2021-10-26 00:55:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-10-26 00:55:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-10-26 00:56:00 --> Controller "App\Controllers\CttAdmin\Parameter" loaded.
+INFO - 2021-10-26 00:56:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-10-26 00:56:11 --> Controller "App\Controllers\CttAdmin\Home" loaded.
+INFO - 2021-10-26 00:56:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-10-26 00:56:30 --> Controller "App\Controllers\CttAdmin\Home" loaded.
+INFO - 2021-10-26 00:56:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-10-26 00:56:40 --> Controller "App\Controllers\CttAdmin\Home" loaded.
+INFO - 2021-10-26 00:56:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-10-26 00:56:41 --> Controller "App\Controllers\CttAdmin\Home" loaded.
+INFO - 2021-10-26 00:56:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-10-26 00:56:45 --> Controller "App\Controllers\CttAdmin\Industry" loaded.
+INFO - 2021-10-26 00:56:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-10-26 00:56:50 --> Controller "App\Controllers\CttAdmin\Organisation" loaded.
+INFO - 2021-10-26 00:56:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-10-26 00:56:56 --> Controller "App\Controllers\CttAdmin\Department" loaded.
+INFO - 2021-10-26 00:56:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-10-26 00:57:00 --> Controller "App\Controllers\CttAdmin\Contract" loaded.
+INFO - 2021-10-26 00:57:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-10-26 00:57:05 --> Controller "App\Controllers\CttAdmin\Vendor" loaded.
+INFO - 2021-10-26 00:57:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-10-26 00:57:08 --> Controller "App\Controllers\CttAdmin\Sbu" loaded.
+INFO - 2021-10-26 00:57:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-10-26 00:57:10 --> Controller "App\Controllers\CttAdmin\Employee" loaded.
+INFO - 2021-10-26 00:57:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-10-26 00:57:13 --> Controller "App\Controllers\CttAdmin\EvaluationQuestions" loaded.
+INFO - 2021-10-26 00:57:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-10-26 00:57:14 --> Controller "App\Controllers\CttAdmin\KeyManager" loaded.
+INFO - 2021-10-26 00:57:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-10-26 01:42:18 --> Controller "App\Controllers\CttAdmin\Home" loaded.
+INFO - 2021-10-26 01:42:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-10-26 01:42:36 --> Controller "App\Controllers\CttAdmin\Home" loaded.
+INFO - 2021-10-26 01:42:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-10-26 01:42:36 --> Controller "App\Controllers\CttAdmin\Home" loaded.
+INFO - 2021-10-26 01:42:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-10-26 01:42:43 --> Controller "App\Controllers\CttAdmin\Parameter" loaded.
+INFO - 2021-10-26 01:42:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-10-26 01:42:46 --> Controller "App\Controllers\CttAdmin\Setting" loaded.
+INFO - 2021-10-26 01:42:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-10-26 01:42:52 --> Controller "App\Controllers\CttAdmin\Industry" loaded.
+INFO - 2021-10-26 01:42:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-10-26 01:42:57 --> Controller "App\Controllers\CttAdmin\Organisation" loaded.
+INFO - 2021-10-26 01:42:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-10-26 01:42:59 --> Controller "App\Controllers\CttAdmin\Department" loaded.
+INFO - 2021-10-26 01:42:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-10-26 01:43:02 --> Controller "App\Controllers\CttAdmin\Contract" loaded.
+INFO - 2021-10-26 01:43:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-10-26 01:43:08 --> Controller "App\Controllers\CttAdmin\Vendor" loaded.
+INFO - 2021-10-26 01:43:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-10-26 01:43:11 --> Controller "App\Controllers\CttAdmin\Sbu" loaded.
+INFO - 2021-10-26 01:43:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-10-26 01:43:13 --> Controller "App\Controllers\CttAdmin\Employee" loaded.
+INFO - 2021-10-26 01:43:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-10-26 01:43:16 --> Controller "App\Controllers\CttAdmin\EvaluationQuestions" loaded.
+INFO - 2021-10-26 01:43:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-10-26 01:43:36 --> Controller "App\Controllers\CttAdmin\EvaluationQuestions" loaded.
+INFO - 2021-10-26 01:43:44 --> Controller "App\Controllers\CttAdmin\EvaluationQuestions" loaded.
+INFO - 2021-10-26 01:43:50 --> Controller "App\Controllers\CttAdmin\EvaluationQuestions" loaded.
+INFO - 2021-10-26 01:44:06 --> Controller "App\Controllers\CttAdmin\EvaluationQuestions" loaded.
+INFO - 2021-10-26 01:44:18 --> Controller "App\Controllers\CttAdmin\EvaluationQuestions" loaded.
+INFO - 2021-10-26 01:44:25 --> Controller "App\Controllers\CttAdmin\EvaluationQuestions" loaded.
+INFO - 2021-10-26 01:44:34 --> Controller "App\Controllers\CttAdmin\KeyManager" loaded.
+INFO - 2021-10-26 01:44:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-10-26 01:44:38 --> Controller "App\Controllers\CttAdmin\Organisation" loaded.
+INFO - 2021-10-26 01:44:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-10-26 01:45:20 --> Controller "App\Controllers\CttAdmin\Contract" loaded.
+INFO - 2021-10-26 01:45:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-10-26 01:49:21 --> Controller "App\Controllers\CttAdmin\Contract" loaded.
+INFO - 2021-10-26 01:49:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-10-26 01:59:11 --> Controller "App\Controllers\CttAdmin\Contract" loaded.
+INFO - 2021-10-26 01:59:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-10-26 01:59:23 --> Controller "App\Controllers\CttAdmin\Home" loaded.
+INFO - 2021-10-26 01:59:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-10-26 01:59:23 --> Controller "App\Controllers\CttAdmin\Home" loaded.
+INFO - 2021-10-26 01:59:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-10-26 02:06:55 --> Controller "App\Controllers\CttAdmin\Home" loaded.
+INFO - 2021-10-26 02:06:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-10-26 02:06:56 --> Controller "App\Controllers\CttAdmin\Home" loaded.
+INFO - 2021-10-26 02:06:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-10-26 02:07:04 --> Controller "App\Controllers\CttAdmin\Organisation" loaded.
+INFO - 2021-10-26 02:07:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-10-26 02:07:07 --> Controller "App\Controllers\CttAdmin\Organisation" loaded.
+INFO - 2021-10-26 02:07:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-10-26 02:36:46 --> Controller "App\Controllers\CttAdmin\Sbu" loaded.
+INFO - 2021-10-26 02:36:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-10-26 02:36:50 --> Controller "App\Controllers\CttAdmin\Sbu" loaded.
+INFO - 2021-10-26 02:36:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-10-26 02:52:50 --> Controller "App\Controllers\CttAdmin\Organisation" loaded.
+INFO - 2021-10-26 02:52:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-10-26 02:52:56 --> Controller "App\Controllers\CttAdmin\Organisation" loaded.
+INFO - 2021-10-26 02:52:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-10-26 08:55:07 --> Controller "App\Controllers\CttAdmin\Home" loaded.
+INFO - 2021-10-26 08:55:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-10-26 08:55:18 --> Controller "App\Controllers\CttAdmin\Home" loaded.
+INFO - 2021-10-26 08:55:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-10-26 08:55:43 --> Controller "App\Controllers\CttAdmin\Home" loaded.
+INFO - 2021-10-26 08:55:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-10-26 08:55:46 --> Controller "App\Controllers\CttAdmin\Home" loaded.
+INFO - 2021-10-26 08:55:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-10-26 08:55:54 --> Controller "App\Controllers\CttAdmin\Parameter" loaded.
+INFO - 2021-10-26 08:55:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-10-26 08:55:59 --> Controller "App\Controllers\CttAdmin\Setting" loaded.
+INFO - 2021-10-26 08:55:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-10-26 08:56:57 --> Controller "App\Controllers\CttAdmin\Setting" loaded.
+INFO - 2021-10-26 08:56:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-10-26 08:59:14 --> Controller "App\Controllers\CttAdmin\Setting" loaded.
+INFO - 2021-10-26 08:59:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-10-26 08:59:28 --> Controller "App\Controllers\CttAdmin\Parameter" loaded.
+INFO - 2021-10-26 08:59:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

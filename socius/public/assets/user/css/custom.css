@@ -1,0 +1,12 @@
+/* ----------------------------------------------------------------
+	Custom CSS
+
+	Add all your Custom Styled CSS here for New Styles or
+	Overwriting Default Theme Styles for Better Hanlding Updates
+-----------------------------------------------------------------*/
+#content{padding-bottom:25px}
+.gallery-container{padding-bottom:25px}
+#myTabContent{padding: 5px;border: 1px solid #0c2f55;}
+
+
+

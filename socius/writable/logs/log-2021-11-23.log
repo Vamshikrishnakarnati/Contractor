@@ -1,0 +1,4 @@
+INFO - 2021-11-23 06:21:55 --> Controller "App\Controllers\CttAdmin\Home" loaded.
+INFO - 2021-11-23 06:21:55 --> Controller "App\Controllers\CttAdmin\Home" loaded.
+INFO - 2021-11-23 06:21:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-11-23 06:21:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

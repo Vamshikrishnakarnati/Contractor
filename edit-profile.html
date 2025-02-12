@@ -1,0 +1,306 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, viewport-fit=cover" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="theme-color" content="#000000">
+    <title>Contracktor</title>
+    <meta name="description" content="">
+    <meta name="keywords" content=""/>
+    <link rel="icon" type="image/png" href="assets/img/favicon.png" sizes="32x32">
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/img/icon/192x192.png">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+    <!-- loader -->
+    <div id="loader">
+        <img src="assets/img/logo-icon.png" alt="icon" class="loading-icon">
+    </div>
+    <!-- * loader -->
+	
+	<!-- App Header -->
+    <div class="appHeader bg-primary text-light">
+        <div class="left">
+            <a href="#" class="headerButton goBack">
+                <ion-icon name="arrow-back-sharp"></ion-icon>
+            </a>
+        </div>
+        <div class="pageTitle">
+           Edit Profile
+        </div>
+        <div class="right">
+        </div>
+    </div>
+    <!-- * App Header -->
+
+    <!-- App Capsule -->
+    <div id="appCapsule">
+        <div class="section mt-3 text-center">
+            <div class="avatar-section">
+                <span>
+                    <img src="assets/img/sample/avatar/avatar1.jpg" alt="avatar" class="imaged w100 h100 fit-cover rounded">
+                </span>
+            </div>
+			<div class="d-block mt-1 profile-pic">
+				<input type="file" id="profileimage" class="d-none"/>
+				<label for="profileimage" class="btn btn-primary">Change Profile Picture</label>
+			</div>
+        </div>
+		
+		<div class="section mt-3 mb-2">
+			<form>
+				<div class="card">
+					<div class="card-body">
+						<div class="form-group basic">
+							<div class="input-wrapper">
+								<label class="label" for="companyName">Company Name</label>
+								<input type="text" class="form-control" id="companyName" placeholder="Company Name" value=""/>
+								<i class="clear-input">
+									<ion-icon name="close-circle"></ion-icon>
+								</i>
+							</div>
+						</div>
+						
+						<div class="form-group basic">
+							<div class="input-wrapper">
+								<label class="label" for="landline">Landline Phone</label>
+								<input type="tel" class="form-control" id="landline" placeholder="Phone Landline" value="+12 123456789"/>
+								<i class="clear-input">
+									<ion-icon name="close-circle"></ion-icon>
+								</i>
+							</div>
+						</div>
+						
+						<div class="form-group basic">
+							<div class="input-wrapper">
+								<label class="label" for="phone">Mobile Phone</label>
+								<input type="tel" class="form-control" id="phone" placeholder="Mobile Phone" value="+91 9876543210"/>
+								<i class="clear-input">
+									<ion-icon name="close-circle"></ion-icon>
+								</i>
+							</div>
+						</div>
+						
+						<div class="form-group basic">
+							<div class="input-wrapper">
+								<label class="label" for="email">Email</label>
+								<input type="email" class="form-control" id="email" placeholder="Enter Email" value="info@gmail.com"/>
+								<i class="clear-input">
+									<ion-icon name="close-circle"></ion-icon>
+								</i>
+							</div>
+						</div>
+						
+						<div class="form-group basic">
+							<div class="input-wrapper">
+								<label class="label" for="address1">Address (corporate)</label>
+								<textarea class="form-control" id="address1" placeholder="Address (corporate)">JagannathVihar, Baramunda, Bhubaneswar - 751003, Odisha, India</textarea>
+								<i class="clear-input">
+									<ion-icon name="close-circle"></ion-icon>
+								</i>
+							</div>
+						</div>
+						
+						<div class="form-group basic">
+							<div class="input-wrapper">
+								<label class="label" for="address2">Address (correspondence)</label>
+								<textarea class="form-control" id="address2" placeholder="Address (correspondence)">JagannathVihar, Baramunda, Bhubaneswar - 751003, Odisha, India</textarea>
+								<i class="clear-input">
+									<ion-icon name="close-circle"></ion-icon>
+								</i>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="section-title">Single Point of Contact</div>
+				<div class="card mb-2">
+					<div class="card-body">
+						<div class="form-group basic">
+							<div class="input-wrapper">
+								<label class="label" for="name">Name</label>
+								<input type="text" class="form-control" id="name" placeholder="Name" value=""/>
+								<i class="clear-input">
+									<ion-icon name="close-circle"></ion-icon>
+								</i>
+							</div>
+						</div>
+						
+						<div class="form-group basic">
+							<div class="input-wrapper">
+								<label class="label" for="mobilePhone">Mobile Phone</label>
+								<input type="tel" class="form-control" id="mobilePhone" placeholder="Mobile Phone" value="+91 987654321"/>
+								<i class="clear-input">
+									<ion-icon name="close-circle"></ion-icon>
+								</i>
+							</div>
+						</div>
+						
+						<div class="form-group basic">
+							<div class="input-wrapper">
+								<label class="label" for="email">Email</label>
+								<input type="email" class="form-control" id="email" placeholder="Enter Email" value="info@gmail.com"/>
+								<i class="clear-input">
+									<ion-icon name="close-circle"></ion-icon>
+								</i>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="card">
+					<div class="card-body">
+						<div class="form-group basic">
+							<div class="input-wrapper">
+								<label class="label" for="toc">Type of Company</label>
+								<input type="text" class="form-control" id="toc" placeholder="" value=""/>
+								<i class="clear-input">
+									<ion-icon name="close-circle"></ion-icon>
+								</i>
+							</div>
+						</div>
+		
+						<div class="form-group basic file">
+							<div class="input-wrapper">
+								<label class="label" for="email">CIN No</label>
+								<input type="file" class="form-control form-upload" id="tfileupload" />
+							</div>
+						</div>
+						
+						<div class="form-group basic file">
+							<div class="input-wrapper">
+								<label class="label" for="email">GST No(s)</label>
+								<input type="file" class="form-control form-upload" id="tfileupload" />
+							</div>
+						</div>
+						
+						<div class="form-group basic">
+							<div class="input-wrapper">
+								<label class="label" for="iwo">Industries in which operating</label>
+								<input type="email" class="form-control" id="iwo" placeholder="" value="TATA Steel"/>
+								<i class="clear-input">
+									<ion-icon name="close-circle"></ion-icon>
+								</i>
+							</div>
+						</div>
+						
+						<div class="form-group basic">
+							<div class="input-wrapper">
+								<label class="label" for="email">Locations in which operating</label>
+								<select class="form-select">
+									<option>Select State</option>
+									<option selected>Odisha</option>
+								</select>
+							</div>
+						</div>
+						
+						<div class="form-group basic">
+							<div class="input-wrapper">
+								<label class="label" for="ae">Areas of expertise</label>
+								<input type="email" class="form-control" id="ae" placeholder="" value=" Action plan development "/>
+								<i class="clear-input">
+									<ion-icon name="close-circle"></ion-icon>
+								</i>
+							</div>
+						</div>
+						
+						<div class="form-group basic">
+							<div class="input-wrapper">
+								<label class="label" for="certifications">IMS Certifications</label>
+								<input type="email" class="form-control" id="certifications" placeholder="" value="ISO"/>
+								<i class="clear-input">
+									<ion-icon name="close-circle"></ion-icon>
+								</i>
+							</div>
+						</div>
+						
+						<div class="form-group basic">
+							<div class="input-wrapper">
+								<label class="label" for="ar">Awards and Recognitions</label>
+								<input type="email" class="form-control" id="ar" placeholder="" value=""/>
+								<i class="clear-input">
+									<ion-icon name="close-circle"></ion-icon>
+								</i>
+							</div>
+						</div>
+						
+						<div class="form-group basic">
+							<div class="input-wrapper">
+								<label class="label" for="tc">Technical collaborations</label>
+								<input type="email" class="form-control" id="tc" placeholder="" value=""/>
+								<i class="clear-input">
+									<ion-icon name="close-circle"></ion-icon>
+								</i>
+							</div>
+						</div>
+						
+						<div class="form-group basic">
+							<div class="input-wrapper">
+								<label class="label" for="mia">Member of Industry associations</label>
+								<input type="email" class="form-control" id="mia" placeholder="" value=""/>
+								<i class="clear-input">
+									<ion-icon name="close-circle"></ion-icon>
+								</i>
+							</div>
+						</div>
+						<h6 class="mb-0">Turnover of last 3 years</h6>
+						<div class="row">
+							<div class="col-4">
+								<div class="form-group basic">
+									<div class="input-wrapper">
+										<select class="form-select">
+											<option>2021</option>
+											<option>2020</option>
+											<option>2019</option>
+										</select>
+										<i class="clear-input">
+											<ion-icon name="close-circle"></ion-icon>
+										</i>
+									</div>
+								</div>
+							</div>
+							<div class="col-8">
+								<div class="form-group basic file">
+									<div class="input-wrapper">
+										<input type="file" class="form-control form-upload" id="tfileupload" />
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="form-button-group transparent mt-4">
+					<button type="submit" class="btn btn-primary btn-block rounded-pill">Update Profile <ion-icon name="arrow-forward-sharp" class="fs-6 align-middle ms-1 me-0 mt-0"></ion-icon></button>
+				</div>
+           </form>
+		</div>
+    </div>
+    <!-- * App Capsule -->
+
+
+
+    <!-- ========= JS Files =========  -->
+	<!-- jquery.min -->
+    <script src="assets/js/jquery.min.js"></script>
+    <!-- Bootstrap -->
+    <script src="assets/js/lib/bootstrap.bundle.min.js"></script>
+    <!-- Ionicons -->
+    <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+    <!-- Splide -->
+    <script src="assets/js/plugins/splide/splide.min.js"></script>
+    <!-- Base Js File -->
+    <script src="assets/js/base.js"></script>
+	<script>
+		var uploadProfile = document.querySelectorAll('.profile-pic');
+		uploadProfile.forEach(function () {
+			var fileInput = document.querySelector('#profileimage');
+			var fileImage = document.querySelector('.avatar-section img');
+			fileInput.addEventListener('change', function (event) {
+				tmppath = URL.createObjectURL(event.target.files[0]);
+				fileImage.src = tmppath;
+			})
+		})
+	</script>
+</body>
+</html>

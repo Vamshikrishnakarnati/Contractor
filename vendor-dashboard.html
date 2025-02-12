@@ -1,0 +1,301 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, viewport-fit=cover" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="theme-color" content="#000000">
+    <title>Contracktor</title>
+    <meta name="description" content="">
+    <meta name="keywords" content=""/>
+    <link rel="icon" type="image/png" href="assets/img/favicon.png" sizes="32x32">
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/img/icon/192x192.png">
+	<!-- chartist -->
+    <link rel="stylesheet" href="assets/css/src/chartist/chartist.min.css"/>
+    <link rel="stylesheet" href="assets/css/src/chartist/chartist-init.css"/>
+    <link rel="stylesheet" href="assets/css/src/chartist/chartist-plugin-tooltip.css"/>
+	
+    <link rel="stylesheet" href="assets/css/style.css"/>
+</head>
+
+<body>
+
+    <!-- loader -->
+    <div id="loader">
+        <img src="assets/img/logo-icon.png" alt="icon" class="loading-icon">
+    </div>
+    <!-- * loader -->
+
+    <!-- App Header -->
+    <div class="appHeader bg-primary text-light">
+        <div class="left">
+            <a href="#" class="headerButton" data-bs-toggle="modal" data-bs-target="#sidebarPanel">
+                <ion-icon name="menu-outline"></ion-icon>
+            </a>
+        </div>
+        <div class="pageTitle">
+            <img src="assets/img/logo-light.png" alt="logo" class="logo">
+        </div>
+        <div class="right">
+            <a href="app-profile.html" class="headerButton">
+                <img src="assets/img/sample/avatar/avatar1.jpg" alt="image" class="imaged rounded-circle w32 h32">
+            </a>
+        </div>
+    </div>
+    <!-- * App Header -->
+
+
+    <!-- App Capsule -->
+    <div id="appCapsule">
+	
+        <div class="section mt-2">
+            <div class="row mb-2">
+                <div class="col-6">
+					<a href="organisations-overall-rating.html" class="btn btn-summer btn-block">Organisations Overall Rating</a>
+                </div>
+                <div class="col-6">
+                    <a href="sbu-overall-rating.html" class="btn btn-light-blue btn-block">SBUs Overall Rating</a>
+                </div>
+            </div>
+            <div class="row mb-2">
+                <div class="col-6">
+					<a href="vendor-highest-5-ratings.html" class="btn btn-yellow btn-block">Highest 5 Ratings</a>
+                </div>
+                <div class="col-6">
+					<a href="vendor-lowest-5-ratings.html" class="btn btn-primary btn-block">Lowest 5 Ratings</a>
+                </div>
+            </div>
+        </div>
+		
+		<div class="section mt-2">
+			<div class="card">
+				<div class="card-body ps-0">
+					<h5 class="card-title ps-2">Department wise Rating evaluation</h5>
+					<div class="d-flex ps-2">
+						<div class="form-group boxed small-size me-1">
+                            <div class="input-wrapper">
+								<select class="form-select">
+									<option>Overall</option>
+									<option>Purchase</option>
+									<option>Safety</option>
+									<option>HR</option>
+									<option>Vigilance</option>
+									<option>Civil</option>
+								</select>
+                            </div>
+                        </div>
+						<div class="form-group boxed small-size">
+                            <div class="input-wrapper">
+								<select class="form-select">
+									<option>ABP Group</option>
+									<option>DBC Group</option>
+								</select>
+                            </div>
+                        </div>
+					</div>
+					<div class="ct-svg-chart" style="height: 250px;"></div>
+				</div>
+			</div>
+		</div>
+		
+		<div class="section mt-2">
+            <div class="row">
+                <div class="col-4 mb-2">
+					<div class="counter-box bg-summer">
+						<strong class="d-block fs-6 mb-05">100</strong>
+						<small class="lh-sm d-block">Workorders evaluated YTD</small>
+					</div>
+                </div>
+                <div class="col-4 mb-2">
+					<div class="counter-box bg-purple">
+						<strong class="d-block fs-6 mb-05">20</strong>
+						<small class="lh-sm d-block">Workorders active during the month</small>
+					</div>
+                </div>
+                <div class="col-4 mb-2">
+					<div class="counter-box bg-light-blue">
+						<strong class="d-block fs-6 mb-05">10</strong>
+						<small class="lh-sm d-block">Workorders closed during the month</small>
+					</div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-4 mb-2">
+					<div class="counter-box bg-orange">
+						<strong class="d-block fs-6 mb-05">100</strong>
+						<small class="lh-sm d-block">Overall Rating</small>
+					</div>
+                </div>
+                 <div class="col-4 mb-2">
+					<div class="counter-box bg-light-red">
+						<strong class="d-block fs-6 mb-05">50</strong>
+						<small class="lh-sm d-block">Overall rating YTD</small>
+					</div>
+                </div>
+                <div class="col-4 mb-2">
+					<div class="counter-box bg-primary">
+						<strong class="d-block fs-6 mb-05">20</strong>
+						<small class="lh-sm d-block">Overall rating for the month</small>
+					</div>
+                </div>
+            </div>
+        </div>
+		
+        <div class="section">
+            <div class="row mb-2">
+                <div class="col-12">
+                    <a href="area-of-expertise.html" class="btn btn-primary btn-block">Area of Expertise</a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <!-- * App Capsule -->
+
+
+    <!-- App Bottom Menu -->
+    <div class="appBottomMenu">
+        <a href="vendor-dashboard.html" class="item active">
+            <div class="col">
+                <ion-icon name="home-outline"></ion-icon>
+                <strong>Home</strong>
+            </div>
+        </a>
+        <a href="performance-overview.html" class="item">
+            <div class="col">
+                <ion-icon name="pie-chart-outline"></ion-icon>
+                <strong>Performance Overview</strong>
+            </div>
+        </a>
+        <a href="vendor-feedback.html" class="item">
+            <div class="col">
+                <ion-icon name="chatbox-ellipses-outline"></ion-icon>
+                <strong>Feedback</strong>
+            </div>
+        </a>
+        <a href="#" class="item">
+            <div class="col">
+                <ion-icon name="share-social-outline"></ion-icon>
+                <strong>Share</strong>
+            </div>
+        </a>
+    </div>
+    <!-- * App Bottom Menu -->
+
+    <!-- App Sidebar -->
+    <div class="modal fade panelbox panelbox-left" id="sidebarPanel" tabindex="-1" role="dialog">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-body p-0">
+                    <!-- profile box -->
+                    <div class="profileBox bg-primary pt-1 pb-1">
+                        <div class="image-wrapper">
+                            <img src="assets/img/sample/avatar/avatar1.jpg" alt="image" class="imaged rounded-circle w36 h36">
+                        </div>
+                        <div class="in text-white">
+                            <strong class="text-white">ABC Company</strong>
+                            <div>Vendor Id : 4029209</div>
+                        </div>
+                        <a href="#" class="btn btn-icon sidebar-close text-white" data-bs-dismiss="modal">
+                            <ion-icon name="close-outline"></ion-icon>
+                        </a>
+                    </div>
+                    <!-- * profile box -->
+
+                    <!-- menu -->
+                    <div class="listview-title light-head">Navigation</div>
+                    <ul class="listview flush text image-listview">
+                        <li>
+                            <a href="focus-areas.html" class="item">
+                                <div class="in">
+                                    Focus Areas
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="upcoming-training.html" class="item">
+                                <div class="in">
+                                    Upcoming Training/Interaction
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="item">
+                                <div class="in">
+                                    Invoices Raised for the month
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="item">
+                                <div class="in">
+                                    Pending Payments for the month
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+                    <!-- * menu -->
+
+                    <div class="section form-button-group mt-2">
+						<a href="app-vendor-login.html" class="btn btn-secondary btn-block"><ion-icon name="log-out-outline" role="img" class="md hydrated" aria-label="log out outline"></ion-icon> Log out</a>
+					</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- * App Sidebar -->
+
+    <!-- ========= JS Files =========  -->
+    <!-- Bootstrap -->
+    <script src="assets/js/lib/bootstrap.bundle.min.js"></script>
+    <!-- Ionicons -->
+    <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+    <!-- Splide -->
+    <script src="assets/js/plugins/splide/splide.min.js"></script>
+	<!-- chartist -->
+    <script src="assets/js/plugins/chartist/chartist.min.js"></script>
+    <script src="assets/js/plugins/chartist/chartist-plugin-tooltip.js"></script>
+    <!-- Base Js File -->
+    <script src="assets/js/base.js"></script>
+	
+    <script>
+		// SVG Path animation graph
+		var chart = new Chartist.Line('.ct-svg-chart', {
+		  labels: ['May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct'],
+		  series: [
+			[1, 5, 2, 5, 9, 8],
+			//[2, 3, 4, 8, 1, 2],
+			//[5, 4, 3, 2, 1, 0.5]
+		  ]
+		}, {
+		  low: 0,
+		  showArea: true,
+		  showPoint: true,
+		  fullWidth: true,
+		  plugins: [
+			Chartist.plugins.tooltip()
+		  ],
+		  chartPadding: {
+			right: 20
+		  }
+		});
+
+		chart.on('draw', function(data) {
+		  if(data.type === 'line' || data.type === 'area') {
+			data.element.animate({
+			  d: {
+				begin: 2000 * data.index,
+				dur: 2000,
+				from: data.path.clone().scale(1, 0).translate(0, data.chartRect.height()).stringify(),
+				to: data.path.clone().stringify(),
+				easing: Chartist.Svg.Easing.easeOutQuint
+			  }
+			});
+		  }
+		});
+    </script>
+
+</body>
+
+</html>
